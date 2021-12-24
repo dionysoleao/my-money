@@ -65,13 +65,14 @@ interface RadioBoxProps {
     isActive: boolean;
 }
 
+
 export const RadioBox = styled.button<RadioBoxProps>`
 
     width:50%;
     height:4rem;
     border: 1px solid #d7d7d7;
     border-radius:0.5rem;
-    background:transparent;
+    background:${(props) => props.isActive ? '#ecc' : 'transparent'};
     display:flex;
     align-items:center;
     justify-content:center;
