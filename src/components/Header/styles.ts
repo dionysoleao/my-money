@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.header`
 background: var(--blue);
-`
 
+`
 
 export const Content = styled.div`
     max-width:1120px;
@@ -12,6 +12,11 @@ export const Content = styled.div`
     display:flex;
     align-items:center;
     justify-content:space-between;
+
+    h2{ 
+        color:white;
+        font-weight:400;
+    }
 
     button{
         font-size:1rem;

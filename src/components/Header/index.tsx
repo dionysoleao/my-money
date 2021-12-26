@@ -1,4 +1,4 @@
-import logoImg from '../../assets/logo.svg'
+
 import { Container, Content } from './styles'
 
 interface HeaderProps{
@@ -10,7 +10,7 @@ export function Header({onOpenNewTransactionModal}:HeaderProps){
     return(
         <Container>
             <Content>
-            <img src={logoImg} alt="my money" />
+            <h2>my money</h2>
             <button onClick={onOpenNewTransactionModal} type="button">Nova Transação</button>
             </Content>
         </Container>
