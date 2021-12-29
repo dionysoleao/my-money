@@ -26,7 +26,7 @@ export function Summary(){
         <Container>
         <div>
             <header>
-                <a>Entradas</a>
+                <span>Entradas</span>
                 <img src={incomeImg} alt="Entradas" />
             </header>
             <strong>{new Intl.NumberFormat('pt-br', {
@@ -36,7 +36,7 @@ export function Summary(){
         </div>
         <div>
             <header>
-                <a>Saídas</a>
+                <span>Saídas</span>
                 <img src={outcomeImg} alt="Saídas" />
             </header>
             <strong>- {new Intl.NumberFormat('pt-br', {
@@ -46,7 +46,7 @@ export function Summary(){
         </div>
         <div className="highlight-background">
             <header>
-                <a>Total</a>
+                <span>Total</span>
                 <img src={totalImg} alt="Total" />
             </header>
             <strong>{new Intl.NumberFormat('pt-br', {
